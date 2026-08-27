@@ -1,7 +1,7 @@
 'use strict'
 
 // This file needs to be kept in sync with its Java consociate
-// https://github.com/alphagov/pay-java-commons/blob/master/logging/src/main/java/uk/gov/pay/logging/LoggingKeys.java
+// https://github.com/govuk-pay/pay-java-commons/blob/master/logging/src/main/java/uk/gov/pay/logging/LoggingKeys.java
 
 // "card", "Direct Debit"
 exports.PAYMENT_TYPE = 'payment_type'
@@ -14,17 +14,17 @@ exports.PROVIDER = 'provider'
 
 // The digital wallet used for a payment
 // Value must be a value of the WalletType enum
-// https://github.com/alphagov/pay-connector/blob/master/src/main/java/uk/gov/pay/connector/wallets/WalletType.java
+// https://github.com/govuk-pay/pay-connector/blob/master/src/main/java/uk/gov/pay/connector/wallets/WalletType.java
 exports.WALLET = 'wallet'
 
 // The type of a gateway account
 // Value must be a value of the GatewayAccountEntity.Type enum
-// https://github.com/alphagov/pay-connector/blob/master/src/main/java/uk/gov/pay/connector/gatewayaccount/model/GatewayAccountEntity.java
+// https://github.com/govuk-pay/pay-connector/blob/master/src/main/java/uk/gov/pay/connector/gatewayaccount/model/GatewayAccountEntity.java
 exports.GATEWAY_ACCOUNT_TYPE = 'gateway_account_type'
 
 // The type of operation being performed with a gateway for a card payment
 // Value must be a value of the OperationType enum
-// https://github.com/alphagov/pay-connector/blob/master/src/main/java/uk/gov/pay/connector/paymentprocessor/model/OperationType.java
+// https://github.com/govuk-pay/pay-connector/blob/master/src/main/java/uk/gov/pay/connector/paymentprocessor/model/OperationType.java
 exports.GATEWAY_CARD_OPERATION = 'gateway_card_operation'
 
 // The amount of a payment in pence
@@ -53,7 +53,7 @@ exports.LEDGER_EVENT_TYPE = 'ledger_event_type'
 
 // The type of an internal event recorded by Direct Debit
 // Value must be a value from the GovUkPayEventType enum
-// https://github.com/alphagov/pay-direct-debit-connector/blob/master/src/main/java/uk/gov/pay/directdebit/events/model/GovUkPayEventType.java
+// https://github.com/govuk-pay/pay-direct-debit-connector/blob/master/src/main/java/uk/gov/pay/directdebit/events/model/GovUkPayEventType.java
 exports.DIRECT_DEBIT_INTERNAL_EVENT_TYPE = 'direct_debit_internal_event_type'
 
 // The current (or new if transitioning) internal state of a payment, mandate etc.

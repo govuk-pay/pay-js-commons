@@ -11,7 +11,7 @@ Reusable js scripts for GOV.UK Pay Node.js projects
 This is a collection of client side scripts we use throughout GOV.UK 
 Pay in the browser. We call it `browsered` because they are written in 
 Node.js and _browsered_ by Browserify to make them safe for all our 
-browsers. We browserify [within the microservice when it’s compiled](https://github.com/alphagov/pay-selfservice/blob/master/Gruntfile.js#L128).
+browsers. We browserify [within the microservice when it’s compiled](https://github.com/govuk-pay/pay-selfservice/blob/master/Gruntfile.js#L128).
 
 #### List of scripts
 - [Field validation](#field-validation)
@@ -200,7 +200,7 @@ __IMPORTANT__: Other pull requests will be blocked from merging until the releas
 
 ## Licence
 
-[MIT License](https://github.com/alphagov/pay-js-commons/blob/master/LICENSE)
+[MIT License](https://github.com/govuk-pay/pay-js-commons/blob/master/LICENSE)
 
 ## Vulnerability Disclosure
 
