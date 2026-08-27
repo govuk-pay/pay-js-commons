@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alphagov/pay-js-commons.git"
+    "url": "git+https://github.com/govuk-pay/pay-js-commons.git"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
@@ -40,9 +40,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alphagov/pay-js-commons/issues"
+    "url": "https://github.com/govuk-pay/pay-js-commons/issues"
   },
-  "homepage": "https://github.com/alphagov/pay-js-commons#readme",
+  "homepage": "https://github.com/govuk-pay/pay-js-commons#readme",
   "xo": {
     "space": true,
     "semicolon": false,
