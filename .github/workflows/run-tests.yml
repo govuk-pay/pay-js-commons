@@ -37,4 +37,4 @@ jobs:
 
   dependency-review:
     name: Dependency Review scan
-    uses: govuk-pay/pay-ci/.github/workflows/_run-dependency-review.yml@84f7923ade1b23110bad84a73978fa04b4f80645
+    uses: govuk-pay/pay-ci/.github/workflows/_run-dependency-review.yml@67c10bdec6dad03624cee4ab798578e1ea429b97
