@@ -8,5 +8,5 @@ permissions:
 
 jobs:
   check_merge:
-    uses: govuk-pay/pay-ci/.github/workflows/_prevent-merge-if-automated-release-open.yml@67c10bdec6dad03624cee4ab798578e1ea429b97
+    uses: govuk-pay/pay-ci/.github/workflows/_prevent-merge-if-automated-release-open.yml@919d98f0133c7ca3ab4c4df66bdaac8fc2653c6c
     secrets: inherit # pragma: allowlist secret
