@@ -73,14 +73,14 @@
   },
   "standard": {
     "globals": [
-      "describe",
-      "context",
-      "before",
-      "beforeEach",
       "after",
       "afterEach",
-      "it",
-      "expect"
+      "before",
+      "beforeEach",
+      "context",
+      "describe",
+      "expect",
+      "it"
     ],
     "ignore": [
       "app/assets/**/*.js",
